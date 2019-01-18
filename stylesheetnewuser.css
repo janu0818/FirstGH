@@ -1,0 +1,73 @@
+body{
+	background: url(onlineshop.png);
+	background-size: 100% 710px;
+	padding-top: 80px;
+	font-size: 26px;
+	
+}
+#nav{
+	padding-left:60px  ;
+	padding-top:   30px;
+	color:    white;
+	height:   530px;
+	width:     435px;
+	background: rgba(0,0,0, 0.7) ;
+	margin: auto;
+	border-radius: 10px;
+	
+  
+}
+.avatar{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 50%;
+	top: -1px;
+	left: 630px;
+	padding-top: 16px;
+}
+#nav input{
+	font-size: 18px;
+	height: 24px ;
+	margin-top: 30px ;
+	width:180px ;
+	border-radius:5px ;
+}
+
+
+
+#nav input[name="email"]
+{width: 365px;
+}
+
+#nav input [name="password"]
+{
+
+#nav input[name="sex"]
+{   margin-top: 10px;
+	width: 20px;
+}
+
+#nav input[type="checkbox"]
+{   width: 25px;
+    margin-top: 0px;
+}
+
+	
+#nav input[type="submit"]
+{    height:  50px;
+     width:   150px;
+	 color: white;
+	 margin-left: 260px;
+	 margin-top: 0px  ;
+	 border-radius: 50px ;
+	 background: blue;
+	 font-weight: bold;
+}
+
+#nav input[type="submit"]:hover
+{
+	color: black;
+	background: green;
+	cursor: pointer;
+}

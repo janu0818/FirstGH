@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body{
+
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 50, 0.5)),url("East-Los-Santos-Background.jpg");
+}
+h1{
+    
+    margin: 0;
+}
+
+header{
+    
+    background-color: black;
+    
+    color: white;
+    padding: 10px px 5px 40px;
+height: 60px;
+
+}
+header h1{
+     text-shadow: 2px 2px  blue;
+    
+    display: inline;
+    font-family: 'Berkshire Swash',cursive;
+    font-size: 32px;
+    float: left;
+   padding: 6px;
+    margin top: 0px;
+    margin-right: 20px;
+}
+
+nav ul{
+     text-shadow: 1px 1px  green;
+
+    display: inline;
+    float: left;
+    padding: 0px;
+}
+nav ul li{
+    font-size: 14px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 19px;
+
+   
+  
+}
+nav li a{
+    text-decoration: none;
+color: white; 
+}
+#nav{
+    
+    font-family: 'Saira Condensed', sans-serif;
+}
+#red1{
+    background-color: blue;
+   padding: 19px 10px 10px 11px;
+  
+}
+#red10{
+    background-color: blue;
+    height: 4px;
+        
+}
+.black2:hover{
+    background-color: red;
+     padding: 20px 10px 17px 10px;
+    
+}
+
+.black4:hover{
+    background-color: red;
+     padding: 14px 10px 10px 10px;
+    
+   
+}
+
+
+#sec{
+background-color: dimgrey;
+    
+    color: white;
+    padding: 10px px 10px 40px;
+height: 42px;
+    
+    
+    
+    
+}
+.red2{
+    background-color: blue;
+     padding: 25px 10px 30px 10px;
+        
+}
+#black3:hover{
+    background-color: red;
+     padding: 20px 10px 17px 10px;
+    
+   
+}
+
+

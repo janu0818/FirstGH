@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image:linear-gradient(to right,rgba(100,100,100,.8),rgba(100,100,100,.8)),url(onlineshop.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.contact-title{
+        margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-form{
+    background: rgba(222,222,222,0.8);
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.contact-title h2{
+    font-size: 16 px;
+}
+ 
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+	margin-top: 10px;
+	margin-left: 20px;
+    
+}
+
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    height: 50px;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    width: 300px;       
+    transition: all .3s;
+    }
+
+form .submit:hover{
+    background-color: #000;
+    color: white;
+cursor: pointer;
+    transform: translateY(-3px);
+}
